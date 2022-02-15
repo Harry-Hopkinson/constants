@@ -1,4 +1,5 @@
-function scanForLetOrVar(code: string): string[] {
+"use strict";
+function scanForLetOrVar(code) {
     const letOrVarRegex = /(let|var)\s+([a-zA-Z0-9_]+)/g;
     const letOrVarMatches = code.match(letOrVarRegex);
     if (!letOrVarMatches) {
