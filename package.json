@@ -1,0 +1,35 @@
+{
+    "name": "constants",
+    "version": "1.0.0",
+    "description": "A NPM Package that scans a codebase for variables and changes their types to a constant if accordant.",
+    "main": "src/index.js",
+    "bin": "src/index.js",
+    "dependencies": {
+        "typescript": "^4.5.5"
+    },
+    "scripts": {
+        "compile": "tsc",
+        "watch": "tsc --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Harry-Hopkinson/constants.git"
+    },
+    "keywords": [
+        "constants",
+        "cli",
+        "command-line",
+        "command-line-interface",
+        "command-line-tool",
+        "command-line-utility"
+    ],
+    "author": "harry-hopkinson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Harry-Hopkinson/constants/issues"
+    },
+    "homepage": "https://github.com/Harry-Hopkinson/constants#readme",
+    "devDependencies": {
+        "typescript": "^4.5.5"
+    }
+}
